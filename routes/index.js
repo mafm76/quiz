@@ -9,6 +9,10 @@ router.get('/', function(req, res) {
 });
 
 /* GET question. */
+router.get('/quizes', quizController.quizes);
+
+
+/* GET question. */
 router.get('/quizes/question', quizController.question);
 
 
